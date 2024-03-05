@@ -61,7 +61,7 @@ regd_users.put("/auth/review/:isbn", (req, res) => {
         res.send(`Book review updated successfully.`);
     }
     else{
-        res.send(`Book review with ${isbn} updated successfully!`);
+        res.send(`Book review with ${isbn} not updated!`);
     }
 });
 
